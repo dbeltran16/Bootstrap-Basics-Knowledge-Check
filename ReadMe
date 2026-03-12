@@ -1,0 +1,111 @@
+# Bootstrap Registration Page
+## Project Description
+
+This project is a responsive web page built using Bootstrap 5. It demonstrates the use of Bootstrap components such as navigation bars, forms, tables, images, and responsive utilities. The page allows users to fill out a registration form and displays submitted user information in a table.
+
+The goal of this project is to practice creating responsive layouts and interactive UI elements using Bootstrap.
+
+## Features
+1. Responsive Navigation Bar
+
+    * A Bootstrap navigation bar is included at the top of the page.
+
+    * Contains links for Home, About, and Contact.
+
+    * The navbar collapses into a hamburger menu on smaller screens for better mobile responsiveness.
+
+## Registration Form
+
+* The page includes a Bootstrap-styled registration form with the following fields:
+
+    * First Name
+
+    * Last Name
+
+    * Email
+
+    * Password
+
+    * Terms and Conditions checkbox
+
+The First Name and Last Name fields are displayed side-by-side using the Bootstrap grid system.
+
+* Form validation ensures that:
+
+     * Email and Password fields are required.
+
+     * The user must agree to the terms before submitting.
+
+The submit button is styled using the Bootstrap btn-success class.
+
+## User Data Table
+
+A responsive Bootstrap table is used to display user information.
+
+Table features include:
+
+* Striped rows for better readability
+
+* Hover effects for improved user interaction
+
+* Responsive layout using table-responsive
+
+* A sample user entry is hard-coded to simulate stored data
+
+When the form is submitted, the new user data is dynamically added to the table using JavaScript.
+
+## Images and Buttons
+
+The page includes:
+
+A responsive banner image using the img-fluid class
+
+A circular profile image using rounded-circle
+
+Two buttons are included:
+
+One button visible on all screen sizes
+
+One button hidden on smaller screens using Bootstrap responsive utilities (d-none d-md-block)
+
+## Modal Confirmation
+
+When the form is successfully submitted, a Bootstrap modal popup appears to confirm the registration. This provides feedback to the user and improves the overall user experience.
+
+## Responsive Design
+
+The layout uses Bootstrap containers and grid utilities to ensure the page works properly on different screen sizes including:
+
+* Mobile
+
+* Tablet
+
+* Desktop
+
+## Technologies Used
+
+* HTML
+
+* Bootstrap 
+
+* JavaScript
+
+* Bootstrap Grid System
+
+* Bootstrap Components (Navbar, Forms, Tables, Modal)
+
+## How to Run the Project
+
+1. Download or copy the project files.
+
+2. Save the HTML file on your computer.
+
+3. Open the file in any modern web browser (Chrome, Edge, Firefox, etc.).
+
+4. Fill out the form and submit to see the table update and the confirmation modal appear.
+
+## Author
+
+Darlene Beltran
+
+Student Project – Bootstrap Web Development Assignment
